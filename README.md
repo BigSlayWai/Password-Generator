@@ -1,28 +1,35 @@
-# Password-Generator
+# Password Generator
+Overview
+This project is a Python-based password generator that allows users to create strong, customized passwords by specifying the number of letters, symbols, and numbers they want in the password.
 
-Instructions
-The program will ask:
+Features
+Easy Mode: The generated password maintains a sequence where letters, symbols, and numbers appear in the order specified by the user.
+Hard Mode: The generated password has a random order of letters, symbols, and numbers, making it even more secure.
+How It Works
+When you run the program, it will prompt you with the following questions:
 
 How many letters would you like in your password?
 How many symbols would you like?
 How many numbers would you like?
-The objective is to take the inputs from the user to these questions and then generate a random password. Use your knowledge about Python lists and loops to complete the challenge.
-
-Easy Version (Step 1)
-Generate the password in sequence. If the user wants
+Example Outputs
+Easy Mode:
+If the user inputs:
 
 4 letters
-2 symbols and
+2 symbols
 3 numbers
-then the password might look like this:
+The password might look like this: fgdx$*924
 
-fgdx$*924
+All the letters are grouped together, followed by symbols and then numbers.
 
-You can see that all the letters are together. All the symbols are together and all the numbers follow each other as well. Try to solve this problem first.
+Hard Mode:
+The password is randomized in terms of letter, symbol, and number placement. For the same inputs, the password might look like this: x$d24g*f9
 
-Hard Version (Step 2)
-When you've completed the easy version, you're ready to tackle the hard version. In the advanced version of this project the final password does not follow a pattern. So the example above might look like this:
+Every time a password is generated, the order of characters will be different, providing enhanced security.
 
-x$d24g*f9
+Getting Started
+To generate a password:
 
-And every time you generate a password, the positions of the symbols, numbers, and letters are different.
+Clone the repository.
+Run the Python script.
+Answer the prompts to generate your customized password.
